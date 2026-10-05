@@ -95,6 +95,15 @@
 
             #endregion
 
+            #region 10
+            int copies = 100;
+            object ob = copies;
+
+            int newInt = (int)ob;
+            Console.WriteLine(ob);
+            Console.WriteLine(newInt);
+            #endregion
+
         }
     }
 }

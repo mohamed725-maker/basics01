@@ -21,7 +21,14 @@
 
             object obj = book;
             Console.WriteLine(obj);
-           #endregion
+            #endregion
+
+            #region 2
+            Console.WriteLine(book.ToString());
+            Console.WriteLine(book.Equals(book));
+            Console.WriteLine(obj.GetHashCode());
+            Console.WriteLine(obj.GetType());
+            #endregion
         }
     }
 }

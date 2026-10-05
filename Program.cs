@@ -86,6 +86,15 @@
             }
 
             #endregion
+
+            #region 9
+            int page = 300;
+            string pagestr = page.ToString();
+            Console.WriteLine(pagestr);
+            Console.WriteLine(pagestr.GetType());
+
+            #endregion
+
         }
     }
 }

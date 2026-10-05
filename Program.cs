@@ -36,6 +36,24 @@
 
             #endregion
 
+            #region 4
+            try
+            {
+                int x = 0;
+                int y = 10;
+                int res = y / x;
+
+            }
+            catch (Exception ex)
+            {
+
+                Console.WriteLine("can't devide by zero");
+            }
+            finally
+            {
+                Console.WriteLine("Done");
+            }
+            #endregion
         }
     }
 }

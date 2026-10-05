@@ -55,11 +55,18 @@
             }
             #endregion
 
-            #region 5th q
+            #region 5
             int pages = 300;
             double douPages = pages;
             Console.WriteLine(douPages);
             #endregion
+
+            #region 6
+            double price = 49.99;
+            int price2 = (int)price;
+            Console.WriteLine(price2);
+            #endregion
+
         }
     }
 }

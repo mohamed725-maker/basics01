@@ -54,6 +54,12 @@
                 Console.WriteLine("Done");
             }
             #endregion
+
+            #region 5th q
+            int pages = 300;
+            double douPages = pages;
+            Console.WriteLine(douPages);
+            #endregion
         }
     }
 }

@@ -72,6 +72,20 @@
             int pagesText2 = Convert.ToInt32(pagesText);
             Console.WriteLine(pagesText2);
             #endregion
+
+            #region 8
+            string yearText = "2023";
+            int year = int.Parse(yearText);
+            Console.WriteLine(year);
+
+            string badText = "abc";
+            bool success = int.TryParse(badText, out int number);
+            if (success == false)
+            {
+                Console.WriteLine("Invalid number");
+            }
+
+            #endregion
         }
     }
 }

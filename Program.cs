@@ -12,12 +12,16 @@
         }
         static void Main(string[] args)
         {
+            #region q1
+
+           
             Book book = new Book();
             book.title = "c# basics";
             book.pages = 500;
 
             object obj = book;
             Console.WriteLine(obj);
+           #endregion
         }
     }
 }
